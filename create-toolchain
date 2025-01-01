@@ -117,7 +117,7 @@ rm -v linux/{host,iphone}/bin/plutil
 
 info "Installing Darwin tools"
 # The hierarchy lines up with ours just right so we dont need to -C
-dl "darwin-tools-${linux_version}.tar.gz" "https://github.com/l1ghtmann/darwin-tools-linux/releases/download/${DARWIN_TOOLS_VERSION}/darwin-tools-${linux_version}.tar.gz"
+dl "darwin-tools-${linux_version}.tar.gz" "https://github.com/Janisbtw/darwin-tools-linux/releases/download/my-update-401b528/darwin-tools-ubuntu22.04.tar.gz"
 tar -xvf "darwin-tools-${linux_version}.tar.gz"
 
 info "Packaging toolchain"
